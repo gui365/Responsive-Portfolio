@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgba(227, 248, 247, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 2px #cccccc solid; 
     position: fixed;
     left: 0;
