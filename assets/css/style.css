@@ -151,16 +151,14 @@ h2 {
     height: 200px;
     align-items: flex-end;
     border-radius: 10px;
+    
+    opacity: 0.7;
+    background-repeat: no-repeat;
 }
 
 .project-name {
     margin-bottom: 0.6rem;
     opacity: 0.9;
-}
-
-.image-props {
-    opacity: 0.7;
-    background-repeat: no-repeat;
 }
 
 #project1 {
@@ -223,4 +221,97 @@ footer a:hover {
 
 input:focus, textarea:focus {
     background-color: rgb(253, 253, 227);
+}
+
+
+/*      Responsive design selectors      */
+
+@media only screen and (max-width: 980px) {
+    .main-div-content {
+        width: 70%;
+    }
+
+    .frame {
+        width: 90%;
+    }
+
+    .project-box {
+        width: 190px;
+        background-size: contain;
+        height: 127px;
+    }
+
+    h2 {
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-div-content {
+        width: 90%;
+    }
+
+    .project-box {
+        width: 236px;
+        background-size: contain;
+        height: 157px;
+    }
+
+    h2 {
+        width: 236px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .header-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    header {
+        background-color: rgba(227, 248, 247, 0.9);
+        border-bottom: 2px #cccccc solid; 
+        left: 0;
+        top: 0;
+        z-index: 20;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        height: 50px;
+        background: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-div-nav {
+        width: 100%;
+    }
+
+    .header-div-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .main-div {
+        margin: 10rem 1rem;
+    }
+
+    .project-box {
+        width: 350px;
+        background-size: contain;
+        height: 234px;
+    }
+
+    h2 {
+        width: 350px;
+    }
 }
