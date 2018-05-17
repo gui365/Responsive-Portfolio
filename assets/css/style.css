@@ -260,6 +260,10 @@ input:focus, textarea:focus {
     h2 {
         width: 236px;
     }
+
+    nav a {
+        padding: 0 5px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -311,5 +315,9 @@ input:focus, textarea:focus {
 
     h2 {
         width: 350px;
+    }
+
+    nav a {
+        padding: 0 25px;
     }
 }
