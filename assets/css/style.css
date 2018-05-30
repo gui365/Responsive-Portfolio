@@ -162,7 +162,8 @@ h2 {
 }
 
 #project1 {
-    background-image: url('../images/project1.jpg');
+    background-image: url('../images/project1.png');
+    background-size: 100% 100%;
 }
 
 #project2 {
